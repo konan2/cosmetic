@@ -19,3 +19,10 @@ function openGallery(e) {
 		el: e.currentTarget,
 	})
 }
+
+
+
+
+
+
+

@@ -129,6 +129,7 @@ iframe
     -webkit-box-orient: vertical
     text-overflow: ellipsis
     white-space: normal
+ 
 
 .carousel-indicators button
     background-color: $primary!important
@@ -136,13 +137,20 @@ iframe
 .carousel--feedbacks
     .carousel-indicators
         position: relative
-        margin-top: 3rem 
+        margin-top: 16px
         //margin-bottom: 0
 
+.bp-vid
+    //width: auto!important
 
-#images
-    img 
-        min-height: 150px
+.bp-vid video
+    //position: static!important
+
+#images .minis
+    img, video 
+        max-height: 191px
+        border-radius: 16px
+        border: 1px solid $gray-300
 
 #myCarousel
     img 
